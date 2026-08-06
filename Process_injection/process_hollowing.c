@@ -20,7 +20,7 @@ typedef NTSTATUS (NTAPI *pNtQueryInformationProcess)(
 );
 
 LPVOID getpe(DWORD *payload_size){
-    HANDLE hFile = CreateFileW(L"C:\\Users\\xkdlf\\Desktop\\claude\\c++\\payload.exe", GENERIC_READ, 0, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_HIDDEN, NULL);
+    HANDLE hFile = CreateFileW(L"C:\\Users\\payload.exe", GENERIC_READ, 0, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_HIDDEN, NULL);
     if (hFile == INVALID_HANDLE_VALUE) {
         printf("CreateFileW failed: %lu\n", GetLastError());
         return NULL;
