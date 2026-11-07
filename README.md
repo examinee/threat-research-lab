@@ -2,7 +2,7 @@
 Adversary technique implementation &amp; detection analysis for malware analysis and threat intelligence research.
 ## maldev
 
-공격 기법의 직접 구현과 탐지 분석을 통한 MA/CTI/DFIR 역량 강화 레포지토리.
+공격 기법의 직접 구현과 탐지 분석을 통한 역량 강화 레포지토리.
 
 Disclaimer: 이 레포지토리는 교육 및 보안 연구 목적으로만 사용됩니다. 문서화된 모든 기법은 이미 공개된 기술임을 알립니다.
 
